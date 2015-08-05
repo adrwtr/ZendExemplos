@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Teste</title>
+    </head>
+
+    <body>
+
+        <form name="form" action="/SessionCookie/public/" method="post">
+            <table border="0">
+                <tr>
+                    <td>
+                        <input type="text" name="valor" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <select name="aonde">
+                            <option value="Sessao">Sessao</option>
+                            <option value="Cookie">Cookie</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="enviar" />
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+        <hr />
+        <b>
+            Valor da Sessao: 
+        </b>
+        <?php echo $this->valorSessao; ?> <BR />
+
+        <b>
+            Valor do Cookie:
+        </b>
+        <?php echo $this->valorCookie; ?> <BR />
+   </body>
+</html>
