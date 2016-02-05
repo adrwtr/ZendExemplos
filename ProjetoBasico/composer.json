@@ -1,0 +1,19 @@
+{
+    "name": "tqc",
+    "description": "Projeto TQC",
+    "license": "proprietary",
+
+    "repositories": {
+        "packagist": { "url": "http://packagist.org", "type": "composer" }
+    },
+
+    "require-dev": {
+        "zendframework/zendframework": "2.3.*",
+        "doctrine/orm": "v2.5.4",
+        "doctrine/doctrine-module" : "0.*",
+        "doctrine/doctrine-orm-module" : "0.*",
+        "symfony/var-dumper" : "~2.7",
+        "phpunit/phpunit": "4.3.*",
+        "symfony/yaml": "2.*"
+    }
+}
